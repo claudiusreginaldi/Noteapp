@@ -1,0 +1,57 @@
+.navbar {
+    position: relative;
+}
+
+.navbar-brand {
+    font-family: Orelega One;
+    font-size: 30px;
+    position: relative;
+}
+
+.jumbotron img {
+    width: 300px;
+    border: 5px solid #333;
+}
+
+.sub-title {
+    text-transform: uppercase;
+}
+
+ hr {
+    width: 100px;
+    border-top: 2px solid black;
+}
+
+.portfolio img {
+    width: 500px;
+    /*height: 200px;*/
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+footer {
+    height: 50px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.my-button {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.my-button span {
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+}
+
+    

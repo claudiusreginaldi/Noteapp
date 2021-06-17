@@ -1,0 +1,57 @@
+
+{% extends "layout.html" %}
+
+{% block title %}Welcome to Note App{% endblock %}
+
+{% block content %}
+    <!-- END NAVBAR -->
+    <!-- Optional JavaScript; choose one of the two! -->
+<section class="my-jumbotron">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">This is a modified saver to express your <span>fellings</span> in diaries</h1>
+            <a href="{{ url_for('create') }}" class="btn btn-primary my-button">Create Message</a>
+        </div>
+    </div>
+</section>
+
+    <section class="my-panel">
+        <div class="container2">
+            <div class="row justify-content-center">
+                <div class="col-10 my-info-panel">
+                    <div class="row">
+                    <div class="col-lg">
+                        <img src="{{url_for('static' , filename='img/Cepat.jpg') }}" alt="Cepat" class="float-left">
+                        <h4>Fast</h4>
+                        <p>As Lightning</p>
+                    </div>
+                    <div class="col-lg">
+                        <img src="{{url_for('static' , filename='img/Cool.jpg') }}" alt="Cool" class="float-left">
+                        <h4>Cool</h4>
+                        <p>Massager</p>
+                    </div>
+                    <div class="col-lg">
+                        <img src="{{url_for('static' , filename='img/Sederhana.jpg') }}" alt="Sederhana" class="float-left">
+                        <h4>Simple</h4>
+                        <p>As it flows</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-info-panel2">
+
+                <div class="col-lg-6">
+                    <img src="{{url_for('static' , filename='img/confort.jpg') }}" alt="confort" class="img-fluid">
+                </div>
+
+                <div class="col-lg-5">
+                    <h3>Put your sentiments into this note.</h3>
+                    <p>Belajarlah Membuat Sebuah Surat</p>
+                    <a href="#" class="btn btn-primary my-button">Find Out</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endblock %}
+    <!-- END PANEL -->
